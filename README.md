@@ -67,4 +67,35 @@ The boilerplate uses the following components:
 The contained `Gruntfile.js` configures the following build tasks:
 
 
+#### default (test, lint, generate docs)
+
+Performs all neccessary tasks in the correct order.
+
+```
+grunt
+```
+
+
+#### auto-test
+
+Watches for library or test changes and re-runs the test suite automatically.
+
+```
+grunt auto-test
+```
+
+
 #### release
+
+Releases a new version of the library (on [npm](http://npmjs.org) and [GitHub](https://github.com)).
+
+```
+grunt release:minor
+grunt release:patch
+grunt release:major
+```
+
+
+## License
+
+MIT
