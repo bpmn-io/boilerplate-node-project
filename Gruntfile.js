@@ -12,9 +12,7 @@ module.exports = function(grunt) {
     },
 
     jshint: {
-      src: [
-        ['<%=config.sources %>']
-      ],
+      src: [ '<%=config.sources %>/**/*.js', 'index.js' ],
       gruntfile: [
         'Gruntfile.js'
       ],
@@ -53,7 +51,7 @@ module.exports = function(grunt) {
 
     jsdoc: {
       dist: {
-        src: [ '<%= config.sources %>/**/*.js' ],
+        src: [ '<%= config.sources %>/**/*.js', 'index.js' ],
         options: {
           destination: 'docs/api',
           plugins: [ 'plugins/markdown' ]
