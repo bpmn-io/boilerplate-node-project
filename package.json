@@ -1,20 +1,20 @@
 {
-  "name": "<PROJECT_NAME>",
+  "name": "<%= PROJECT_NAME %>",
   "version": "0.0.0",
-  "description": "<PROJECT_DESCRIPTION>",
+  "description": "<%= PROJECT_DESCRIPTION %>",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bpmn-io/<PROJECT_NAME>"
+    "url": "https://github.com/bpmn-io/<%= PROJECT_NAME %>"
   },
   "keywords": [
 
   ],
   "author": {
-    "name": "<AUTHOR_NAME>",
-    "url": "https://github.com/<AUTHOR_GITHUB_NAME>"
+    "name": "<%= AUTHOR_NAME %>",
+    "url": "https://github.com/<%= AUTHOR_GITHUB_NAME %>"
   },
   "contributors": [
     {
